@@ -5,6 +5,7 @@ import Product from "@/components/section/product";
 import Location from "@/components/section/location";
 import Faq from "@/components/section/faq";
 import GoogleAnalytics from "../../google-analytics";
+import Script from "next/script";
 
 export default function Home() {
   return (
@@ -25,6 +26,16 @@ export default function Home() {
         <link rel="icon" href="/favicon.png" sizes="any" />
       </Head>
       <Wrapper footer>
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-S03EQK17R8" />
+        <Script id="google-analytics">
+          {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+ 
+          gtag('config', 'G-S03EQK17R8');
+        `}
+        </Script>
         <Hero />
         <Product />
         <Location />

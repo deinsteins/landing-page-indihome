@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { useEffect } from "react";
 
 const Hero = () => {
   return (
@@ -20,6 +21,7 @@ const Hero = () => {
       <a
         href="https://wa.me/6285211477581?text=Halo%20saya%20ingin%20pasang%20wifi%20Indihome"
         target="_blank"
+        id="contactNow" // Add an id for identification
         className="px-8 py-2 rounded-full border-2 bg-white border-[#EA0A2A] hover:text-white hover:bg-[#EA0A2A]"
       >
         Hubungi Sekarang
