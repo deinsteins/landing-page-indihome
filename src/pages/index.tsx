@@ -9,6 +9,7 @@ import GoogleAnalytics from "../../google-analytics";
 export default function Home() {
   return (
     <>
+      <GoogleAnalytics />
       <Head>
         <title>Solusi Terbaik: Jasa Pasang Wifi Indihome Bandung</title>
         <meta
@@ -24,7 +25,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.png" sizes="any" />
       </Head>
       <Wrapper footer>
-        <GoogleAnalytics />
         <Hero />
         <Product />
         <Location />

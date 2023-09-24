@@ -11,8 +11,8 @@ const Hero = () => {
     >
       <Image src="/assets/images/router.png" alt="" width={500} height={300} />
       <header className="mx-8">
-        <h2>
-          Dapatkan layanan profesional pasang wifi Indohome di Bandung. Ciptakan
+        <h2 className="text-center" style={{ fontSize: 28 }}>
+          Dapatkan layanan profesional pasang wifi Indihome di Bandung. Ciptakan
           koneksi cepat dengan jaringan yang optimal untuk hiburan anda serta
           keluarga di rumah.
         </h2>
