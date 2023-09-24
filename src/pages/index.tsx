@@ -1,5 +1,3 @@
-import Image from "next/image";
-import Nav from "@/components/nav";
 import { Wrapper } from "@/components/layout";
 import Hero from "@/hero";
 import Head from "next/head";
