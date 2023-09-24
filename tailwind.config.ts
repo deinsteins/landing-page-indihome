@@ -1,5 +1,7 @@
 import type { Config } from 'tailwindcss'
 
+const fontSize = require("./src/styles/theme/fonts.json");
+
 const config: Config = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -8,6 +10,11 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontSize,
+      fontFamily: {
+        sans: ["'Poppins'", "sans-serif"],
+        poppins: ["'Poppins'", "sans-serif"],
+    },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
