@@ -9,9 +9,12 @@ const Faq = () => {
             Masih ada pertanyaan? Silahkan tanyakan pada kami.
           </h3>
         </header>
-        <button className="py-2 w-52 rounded-full border-2 bg-white text-[#EA0A2A] border-[#EA0A2A] hover:text-white hover:bg-[#EA0A2A]">
+        <a
+          href="https://wa.me/6285211477581?text=Halo%20saya%20ingin%20bertanya%20lebih%20lanjut%20terkait%20paket%20dan pemasangan%20wifi%20Indihome"
+          className="px-4 py-2 text-center w-52 rounded-full border-2 bg-white text-[#EA0A2A] border-[#EA0A2A] hover:text-white hover:bg-[#EA0A2A]"
+        >
           Hubungi Kami
-        </button>
+        </a>
       </article>
     </section>
   );

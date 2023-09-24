@@ -1,9 +1,32 @@
 import Image from "next/image";
 import Link from "next/link";
+import { useEffect, useState } from "react";
 
 const Nav = () => {
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  const navbarClass = isScrolled ? "bg-white shadow-md p-4" : "";
+
   return (
-    <nav className="flex justify-between gap-4 p-8 font-medium text-lg">
+    <nav
+      className={`sticky top-0 z-10 flex justify-between gap-4 p-8 font-medium text-lg ${navbarClass}`}
+    >
       <Image
         src="/logo/indihome-logo.png"
         alt="Indihome"
@@ -25,7 +48,8 @@ const Nav = () => {
         </Link>
         <Link
           className="py-2 px-4 hover:px-6 rounded-full hover:text-white hover:bg-[#EA0A2A]"
-          href="#"
+          href="https://wa.me/6285211477581"
+          target="_blank"
         >
           Hubungi Kami
         </Link>
