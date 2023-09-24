@@ -21,7 +21,7 @@ const Nav = () => {
     };
   }, []);
 
-  const navbarClass = isScrolled ? "bg-white shadow-md p-4" : "";
+  const navbarClass = isScrolled ? "bg-white shadow-md py-4" : "";
 
   return (
     <nav

@@ -4,6 +4,7 @@ import Head from "next/head";
 import Product from "@/components/section/product";
 import Location from "@/components/section/location";
 import Faq from "@/components/section/faq";
+import GoogleAnalytics from "../../google-analytics";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.png" sizes="any" />
       </Head>
       <Wrapper footer>
+        <GoogleAnalytics />
         <Hero />
         <Product />
         <Location />
