@@ -6,7 +6,7 @@ const Coverage = () => {
     logEvent({
       action: "button_click",
       category: "CTA",
-      label: "Hubungi Kami Coverage",
+      label: "Coverage",
     });
   };
 

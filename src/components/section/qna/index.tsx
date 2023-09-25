@@ -10,7 +10,7 @@ const Qna = () => {
             Pertanyaan Yang Sering Ditanyakan
           </h3>
         </header>
-        <div className="w-full flex flex-wrap justify-center">
+        <div className="w-full flex flex-col flex-wrap sm:flex-row justify-center">
           <ArticleLayout
             title="Apa Itu Indihome?"
             content="Indihome adalah layanan digital yang menyediakan jaringan Internet Rumah, Telepon Rumah, dan TV Interaktif dengan beragam pilihan paket unlimited. Jaringan Indihome telah tersebar di seluruh wilayah Indonesia."
