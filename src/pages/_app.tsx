@@ -1,6 +1,10 @@
-import '@/styles/globals.css'
-import type { AppProps } from 'next/app'
+import "@/styles/globals.css";
+import type { AppProps } from "next/app";
+import { withGA, WithGAProps } from "../../google-analytics";
 
-export default function App({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+function App({ Component, pageProps }: AppProps & WithGAProps) {
+  return <Component {...pageProps} />;
 }
+
+// @ts-ignore
+export default withGA(App);

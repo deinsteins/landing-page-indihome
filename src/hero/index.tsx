@@ -1,7 +1,17 @@
 import Image from "next/image";
 import { useEffect } from "react";
+import { logEvent } from "../../google-analytics";
 
 const Hero = () => {
+  const handleButtonClick = () => {
+    // Track the button click event
+    logEvent({
+      action: "button_click",
+      category: "CTA",
+      label: "Hubungi Sekarang",
+    });
+  };
+
   return (
     <div
       className="flex flex-col gap-4 p-8 justify-center items-center bg-cover bg-center text-[#EA0A2A] font-semibold"
@@ -22,6 +32,7 @@ const Hero = () => {
         href="https://wa.me/6285211477581?text=Halo%20saya%20ingin%20pasang%20wifi%20Indihome"
         target="_blank"
         id="contactNow" // Add an id for identification
+        onClick={handleButtonClick}
         className="px-8 py-2 rounded-full border-2 bg-white border-[#EA0A2A] hover:text-white hover:bg-[#EA0A2A]"
       >
         Hubungi Sekarang

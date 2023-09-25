@@ -1,3 +1,4 @@
+import { logEvent } from "google-analytics";
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
@@ -21,6 +22,15 @@ const Nav = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
+  const handleButtonClick = () => {
+    // Track the button click event
+    logEvent({
+      action: "button_click",
+      category: "CTA",
+      label: "Hubungi Kami Nav",
+    });
+  };
 
   const navbarClass = isScrolled ? "bg-white shadow-md py-4" : "";
 
@@ -121,6 +131,7 @@ const Nav = () => {
             className="py-2 px-4 hover:px-6 rounded-full hover:text-[#EA0A2A]"
             href="https://wa.me/6285211477581"
             target="_blank"
+            onClick={handleButtonClick}
           >
             Hubungi Kami
           </Link>

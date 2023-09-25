@@ -4,13 +4,11 @@ import Head from "next/head";
 import Product from "@/components/section/product";
 import Location from "@/components/section/location";
 import Faq from "@/components/section/faq";
-import GoogleAnalytics from "../../google-analytics";
 import Script from "next/script";
 
 export default function Home() {
   return (
     <>
-      <GoogleAnalytics />
       <Head>
         <title>Solusi Terbaik: Jasa Pasang Wifi Indihome Bandung</title>
         <meta
