@@ -84,13 +84,13 @@ const Nav = () => {
         <div className="md:flex hidden">
           <Link
             className="py-2 px-4 hover:px-6 rounded-full hover:text-white hover:bg-[#EA0A2A]"
-            href="#"
+            href="/"
           >
             Home
           </Link>
           <Link
             className="py-2 px-4 hover:px-6 rounded-full hover:text-white hover:bg-[#EA0A2A]"
-            href="#package"
+            href="/paket-indihome-murah"
           >
             Daftar Paket
           </Link>

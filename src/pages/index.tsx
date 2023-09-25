@@ -5,6 +5,8 @@ import Product from "@/components/section/product";
 import Location from "@/components/section/location";
 import Faq from "@/components/section/faq";
 import Script from "next/script";
+import Coverage from "@/components/section/coverage";
+import Qna from "@/components/section/qna";
 
 export default function Home() {
   return (
@@ -21,7 +23,7 @@ export default function Home() {
           content="internet cepat, internet murah, internet stabil, internet unlimited, internet murah bandung, wifi murah bandung, jasa pemasangan wifi indihome, paket internet, speedtest indihome, tv kabel, tv kabel hd, layanan teknisi wifi bandung, jasa perbaikan wifi bandung, instalasi indihome bandung, jasa pemasangan indihome bandung, harga pasang wifi indihome, harga indihome bandung, paket wifi indihome bandung"
           key="keywords"
         />
-        <link rel="icon" href="/favicon.png" sizes="any" />
+        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
       </Head>
       <Wrapper footer>
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-S03EQK17R8" />
@@ -35,7 +37,13 @@ export default function Home() {
         `}
         </Script>
         <Hero />
-        <Product />
+        <Product
+          title="Daftar Paket"
+          content="Kami menyediakan paket sesuai kebutuhan anda yang bisa dinikmati
+          setiap saat."
+        />
+        <Coverage />
+        <Qna />
         <Location />
         <Faq />
       </Wrapper>
