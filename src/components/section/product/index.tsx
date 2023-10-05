@@ -134,7 +134,7 @@ const Product: React.FC<Props> = ({ title, content }) => {
           />
         </div>
         <Link
-          className="py-2 px-4 hover:px-6 rounded-full border-white mx-auto border-2 bg-[#EA0A2A] hover:text-white hover:bg-white hover:text-black"
+          className="py-2 px-4 hover:px-6 rounded-full border-white mx-auto border-2 bg-[#EA0A2A] hover:bg-white hover:text-black"
           href="/paket-indihome-murah"
         >
           Lihat Semua Paket
