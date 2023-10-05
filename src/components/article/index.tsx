@@ -17,7 +17,7 @@ const ArticleLayout: React.FC<ArticleLayoutProps> = ({
 }) => {
   return (
     <div className="flex flex-col w-full sm:w-1/2">
-      <div className="w-1/2 p-4">
+      <div className="w-full p-4">
         <h1 className="text-xl font-bold text-gray-900">{title}</h1>
       </div>
       <div className="w-full p-4 text-justify">

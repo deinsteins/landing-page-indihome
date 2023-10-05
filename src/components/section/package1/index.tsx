@@ -7,7 +7,7 @@ interface Props {
   content: string;
 }
 
-const Product: React.FC<Props> = ({ title, content }) => {
+const Package1: React.FC<Props> = ({ title, content }) => {
   return (
     <section id="package" className="mx-8 mt-12 rounded-2xl bg-[#EA0A2A]">
       <article className="flex flex-col gap-4 px-6 py-8 text-white">
@@ -73,72 +73,10 @@ const Product: React.FC<Props> = ({ title, content }) => {
               </span>,
             ]}
           />
-          <Card
-            src="/assets/products/30mbps.png"
-            alt="Paket Jitu"
-            title={"Paket Jitu 2P + TV"}
-            price={"340.000"}
-            subtitle={"Paket Internet  + Tv"}
-            description={""}
-            details={[
-              "kecepatan internet up to 30mbps",
-              "Paket Entry 82 Channel Tv",
-              "Disney + Hotstar",
-              "SEATODAY",
-              <span>
-                biaya pemasangan <b>Rp.250.000 (sudah aktif)</b>
-              </span>,
-              <span>
-                harga belum termasuk <b>PPN 11%</b>
-              </span>,
-            ]}
-          />
-          <Card
-            src="/assets/products/40mbps.png"
-            alt="Paket Jitu"
-            title={"Paket Jitu 2P"}
-            price={"330.000"}
-            subtitle={"Paket Internet  + Telepon"}
-            description={""}
-            details={[
-              "kecepatan internet up to 40mbps",
-              "bebas telepon 100 menit",
-              <span>
-                biaya pemasangan <b>Rp.250.000 (sudah aktif)</b>
-              </span>,
-              <span>
-                harga belum termasuk <b>PPN 11%</b>
-              </span>,
-            ]}
-          />
-          <Card
-            src="/assets/products/50mbps.png"
-            alt="Paket Jitu 2P"
-            title={"Paket Jitu 2P"}
-            price={"360.000"}
-            subtitle={"Paket Internet  + Telepon"}
-            description={""}
-            details={[
-              "kecepatan internet up to 50mbps",
-              "bebas telepon 100 menit",
-              <span>
-                biaya pemasangan <b>Rp.250.000 (sudah aktif)</b>
-              </span>,
-              <span>
-                harga belum termasuk <b>PPN 11%</b>
-              </span>,
-            ]}
-          />
         </div>
-        <Link
-          className="py-2 px-4 hover:px-6 rounded-full border-white mx-auto border-2 bg-[#EA0A2A] hover:text-white hover:bg-white hover:text-black"
-          href="/paket-indihome-murah"
-        >
-          Lihat Semua Paket
-        </Link>
       </article>
     </section>
   );
 };
 
-export default Product;
+export default Package1;

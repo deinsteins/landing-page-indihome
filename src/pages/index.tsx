@@ -38,7 +38,7 @@ export default function Home() {
         </Script>
         <Hero />
         <Product
-          title="Daftar Paket"
+          title="Paket 1P & 2P Internet + Telpon"
           content="Kami menyediakan paket sesuai kebutuhan anda yang bisa dinikmati
           setiap saat."
         />

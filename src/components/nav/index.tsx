@@ -74,12 +74,15 @@ const Nav = () => {
     <nav
       className={`sticky top-0 z-10 flex justify-between gap-4 p-4 md:p-8 font-medium text-lg ${navbarClass}`}
     >
-      <Image
-        src="/logo/indihome-logo.png"
-        alt="Indihome"
-        width={125}
-        height={40}
-      />
+      <Link href="/">
+        <Image
+          src="/logo/indihome-logo.png"
+          alt="Indihome"
+          width={125}
+          height={40}
+        />
+      </Link>
+
       <div className="md:flex gap-12 items-center text-[#787878]">
         <div className="md:flex hidden">
           <Link
@@ -117,7 +120,7 @@ const Nav = () => {
         <div className="md:hidden w-full flex flex-col absolute top-16 right-0 text-center bg-white text-[#787878] rounded shadow-lg p-4 transition-transform ease-in-out duration-300">
           <Link
             className="py-2 px-4 hover:px-6 rounded-full hover:text-[#EA0A2A]"
-            href="#"
+            href="/"
           >
             Home
           </Link>

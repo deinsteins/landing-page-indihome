@@ -20,7 +20,12 @@ const Hero = () => {
         backgroundSize: "cover",
       }}
     >
-      <Image src="/assets/images/router.png" alt="" width={500} height={300} />
+      <Image
+        src="/assets/products/banner.png"
+        alt=""
+        width={600}
+        height={300}
+      />
       <header className="mx-8">
         <h2 className="text-center" style={{ fontSize: 28 }}>
           Dapatkan layanan profesional pasang wifi Indihome di Bandung. Ciptakan
