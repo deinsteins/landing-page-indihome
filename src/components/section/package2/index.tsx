@@ -9,7 +9,10 @@ interface Props {
 
 const Package2: React.FC<Props> = ({ title, content }) => {
   return (
-    <section id="package" className="mx-8 mt-12 rounded-2xl bg-[#EA0A2A]">
+    <section
+      id="package"
+      className="mx-2 sm:mx-8 mt-12 rounded-2xl bg-[#EA0A2A]"
+    >
       <article className="flex flex-col gap-4 px-6 py-8 text-white">
         <header>
           <h3 className="text-center font-bold text-3xl">{title}</h3>

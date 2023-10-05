@@ -2,7 +2,7 @@ import Card from "@/components/card";
 
 const Location = () => {
   return (
-    <section className="mx-8 mt-12">
+    <section className="mx-2 sm:mx-8 mt-12">
       <article className="flex flex-col gap-4 px-6 py-8">
         <header>
           <h3 className="text-center text-[#EA0A2A] font-bold text-3xl">

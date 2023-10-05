@@ -11,7 +11,7 @@ const Coverage = () => {
   };
 
   return (
-    <section className="mx-8 mt-12 mb-20 rounded-2xl bg-white overflow-hidden">
+    <section className="mx-2 sm:mx-8 mt-12 mb-20 rounded-2xl bg-white overflow-hidden">
       <article className="flex flex-col justify-center items-center gap-12 px-6 py-8 sm:px-24 sm:py-24 text-white">
         <header className="sm:w-3/4">
           <h3 className="text-center text-[#EA0A2A] font-bold text-3xl">

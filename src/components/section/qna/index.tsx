@@ -3,7 +3,7 @@ import Card from "@/components/card";
 
 const Qna = () => {
   return (
-    <section className="relative mx-8 mt-12 mb-20 rounded-2xl bg-white overflow-hidden">
+    <section className="relative mx-2 sm:mx-8 mt-12 mb-20 rounded-2xl bg-white overflow-hidden">
       <article className="flex flex-col justify-center items-center gap-12 px-4 py-8 text-white ">
         <header className="sm:w-3/4">
           <h3 className="text-center text-[#EA0A2A] font-bold text-3xl">

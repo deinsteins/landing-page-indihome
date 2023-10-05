@@ -126,7 +126,7 @@ const Nav = () => {
           </Link>
           <Link
             className="py-2 px-4 hover:px-6 rounded-full hover:text-[#EA0A2A]"
-            href="#package"
+            href="/paket-indihome-murah"
           >
             Daftar Paket
           </Link>
