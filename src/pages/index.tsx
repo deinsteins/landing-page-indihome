@@ -12,10 +12,13 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Solusi Terbaik: Jasa Pasang Wifi Indihome Bandung</title>
+        <title>
+          Solusi Terbaik: Jasa Pasang Wifi Indihome Bandung, Cimahi, Cianjur dan
+          Sekitarnya
+        </title>
         <meta
           name="description"
-          content="Pasang Wifi Indihome Bandung. Solusi cepat dan handal untuk koneksi internet terbaik. Hubungi kami segera untuk pemesanan."
+          content="Pasang Wifi Indihome  Bandung, Cimahi, Cianjur dan Sekitarnya. Solusi cepat dan handal untuk koneksi internet terbaik. Hubungi kami segera untuk pemesanan."
           key="desc"
         />
         <meta
@@ -29,13 +32,16 @@ export default function Home() {
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-S03EQK17R8" />
         <Script id="google-analytics">
           {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
- 
-          gtag('config', 'G-S03EQK17R8');
-        `}
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-S03EQK17R8');
+            `}
         </Script>
+
+        <Script id="google-ads">{`gtag('config', 'AW-11363180473');`}</Script>
+
         <Hero />
         <Product
           title="Paket 1P & 2P Internet + Telpon"

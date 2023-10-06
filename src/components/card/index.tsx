@@ -23,10 +23,9 @@ const Card: React.FC<Props> = ({
 }) => {
   const handleButtonClick = () => {
     // Track the button click event
-    logEvent({
-      action: "button_click",
-      category: "CTA",
-      label: "Tanya Paket",
+    gtag("event", "button_click", {
+      event_category: "CTA",
+      event_label: "Berlangganan",
     });
   };
 
