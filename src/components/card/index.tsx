@@ -1,5 +1,3 @@
-import gtag from "@/types/gtag";
-import { logEvent } from "google-analytics";
 import Image, { StaticImageData } from "next/image";
 import { ReactNode } from "react";
 
