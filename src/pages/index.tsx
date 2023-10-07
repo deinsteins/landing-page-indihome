@@ -2,10 +2,8 @@ import { Wrapper } from "@/components/layout";
 import Hero from "@/hero";
 import Head from "next/head";
 import Product from "@/components/section/product";
-import Location from "@/components/section/location";
 import Faq from "@/components/section/faq";
 import Script from "next/script";
-import Coverage from "@/components/section/coverage";
 import Qna from "@/components/section/qna";
 
 export default function Home() {
@@ -48,9 +46,7 @@ export default function Home() {
           content="Kami menyediakan paket sesuai kebutuhan anda yang bisa dinikmati
           setiap saat."
         />
-        <Coverage />
         <Qna />
-        <Location />
         <Faq />
       </Wrapper>
     </>

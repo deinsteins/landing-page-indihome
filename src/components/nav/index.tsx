@@ -99,6 +99,12 @@ const Nav = () => {
           </Link>
           <Link
             className="py-2 px-4 hover:px-6 rounded-full hover:text-white hover:bg-[#EA0A2A]"
+            href="/ketersediaan-indihome"
+          >
+            Cek Coverage
+          </Link>
+          <Link
+            className="py-2 px-4 hover:px-6 rounded-full hover:text-white hover:bg-[#EA0A2A]"
             href="https://wa.me/6285211477581"
             target="_blank"
           >
@@ -129,6 +135,12 @@ const Nav = () => {
             href="/paket-indihome-murah"
           >
             Daftar Paket
+          </Link>
+          <Link
+            className="py-2 px-4 hover:px-6 rounded-full hover:text-[#EA0A2A]"
+            href="/ketersediaan-indihome"
+          >
+            Cek Coverage
           </Link>
           <Link
             className="py-2 px-4 hover:px-6 rounded-full hover:text-[#EA0A2A]"
