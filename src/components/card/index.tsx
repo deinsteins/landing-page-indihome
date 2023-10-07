@@ -27,8 +27,13 @@ const Card: React.FC<Props> = ({
       event_category: "CTA",
       event_label: "Berlangganan",
     });
-  };
 
+    // Track the conversion event
+    gtag("event", "conversion", {
+      send_to: "AW-11363180473/pE2wCI64mOkYELm_saoq", // Replace with your actual Google Ads conversion ID
+      value: 1,
+    });
+  };
   return (
     <div className="flex flex-col text-black gap-4 px-6 py-3 rounded-2xl bg-white max-w-[350px] justify-center text-center items-center">
       <Image src={src} alt={alt} width={200} height={200} />
