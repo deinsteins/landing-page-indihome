@@ -5,10 +5,14 @@ import { logEvent } from "../../google-analytics";
 const Hero = () => {
   const handleButtonClick = () => {
     // Track the button click event
-    logEvent({
-      action: "button_click",
-      category: "CTA",
-      label: "Hubungi Sekarang",
+    gtag("event", "button_click", {
+      event_category: "CTA",
+      event_label: "Hubungi_Sekarang",
+    });
+    // Track the conversion event
+    gtag("event", "conversion", {
+      send_to: "AW-11363180473/pE2wCI64mOkYELm_saoq", // Replace with your actual Google Ads conversion ID
+      value: 1,
     });
   };
 
