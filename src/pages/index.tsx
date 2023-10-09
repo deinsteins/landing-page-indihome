@@ -11,8 +11,8 @@ export default function Home() {
     <>
       <Head>
         <title>
-          Solusi Terbaik: Jasa Pasang Wifi Indihome Bandung, Cimahi, Cianjur dan
-          Sekitarnya
+          Indihome By Telkomsel | Pasang Wifi Indihome Bandung, Cimahi, Cianjur
+          dan Sekitarnya
         </title>
         <meta
           name="description"
