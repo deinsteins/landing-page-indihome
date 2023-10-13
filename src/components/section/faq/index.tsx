@@ -8,6 +8,11 @@ const Faq = () => {
       category: "CTA",
       label: "Hubungi Kami FAQ",
     });
+    // Track the conversion event
+    gtag("event", "conversion", {
+      send_to: "AW-11363180473/qJV7CNiv8usYELm_saoq", // Replace with your actual Google Ads conversion ID
+      value: 1,
+    });
   };
 
   return (
