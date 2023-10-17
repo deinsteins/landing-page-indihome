@@ -56,7 +56,7 @@ Paket Indihome yang dipilih: ${selectedPackage}
 
   return (
     <form
-      className="text-black p-4 w-[32rem]"
+      className="text-black p-4 w-full sm:w-[32rem]"
       onSubmit={handleSubmit(onSubmit)}
     >
       <div className="flex flex-col gap-1 mb-4 text-red-500">

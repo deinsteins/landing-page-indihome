@@ -15,7 +15,7 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose, children }) => {
       className={`fixed top-0 left-0 w-full h-full flex items-center justify-center z-50 ${overlayClasses} transition-opacity duration-300`}
     >
       <div
-        className={`bg-white rounded-lg text-sm shadow-lg p-4 ${modalClasses}`}
+        className={`bg-white rounded-lg text-sm min-w-[90%] sm:min-w-fit shadow-lg p-4 ${modalClasses}`}
       >
         <div className="flex justify-end">
           <button
