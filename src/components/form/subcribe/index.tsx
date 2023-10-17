@@ -64,7 +64,7 @@ Paket Indihome yang dipilih: ${selectedPackage}
         <Controller
           name="name"
           control={control}
-          rules={{ required: "Name Harus diisi" }} // Separate validation rule
+          rules={{ required: "Nama Lengkap Harus diisi" }} // Separate validation rule
           render={({ field }) => (
             <input {...field} className="border rounded p-1 text-black" />
           )}
@@ -94,7 +94,7 @@ Paket Indihome yang dipilih: ${selectedPackage}
         <Controller
           name="phoneNumber"
           control={control}
-          rules={{ required: "Phone Number Harus diisi" }}
+          rules={{ required: "Nomor Handphone Harus diisi" }}
           render={({ field }) => (
             <input {...field} className="border rounded p-1 text-black" />
           )}
@@ -118,7 +118,7 @@ Paket Indihome yang dipilih: ${selectedPackage}
         <Controller
           name="address"
           control={control}
-          rules={{ required: "Address Harus diisi" }}
+          rules={{ required: "Alamat Lengkap Pemasangan Harus diisi" }}
           render={({ field }) => (
             <textarea {...field} className="border rounded p-1 text-black" />
           )}
