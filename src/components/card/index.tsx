@@ -40,7 +40,7 @@ const Card: React.FC<Props> = ({
     <>
       <Modal isOpen={modalOpen} onClose={handleCloseModal}>
         <h3 className="text-black font-bold text-xl text-center">
-          Form Pendaftaran Indihome
+          Silahkan Isi Formulir Berikut
         </h3>
         <SubcribeForm
           onCloseModal={handleCloseModal}
