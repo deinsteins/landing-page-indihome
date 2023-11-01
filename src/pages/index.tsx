@@ -11,8 +11,8 @@ export default function Home() {
     <>
       <Head>
         <title>
-          Indihome By Telkomsel | Pasang Wifi Indihome Bandung, Cimahi, Cianjur
-          dan Sekitarnya
+          Indihome Bandung Marketing | Pasang Wifi Indihome Bandung, Cimahi,
+          Cianjur dan Sekitarnya
         </title>
         <meta
           name="description"
