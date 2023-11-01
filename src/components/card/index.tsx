@@ -29,8 +29,14 @@ const Card: React.FC<Props> = ({
   };
 
   const handleButtonClick = () => {
-    setModalOpen(true);
+    // setModalOpen(true);
     // Track the button click event
+    // Track the conversion event
+    gtag("event", "conversion", {
+      send_to: "AW-11363180473/pE2wCI64mOkYELm_saoq", // Replace with your actual Google Ads conversion ID
+      value: 1,
+    });
+
     gtag("event", "button_click", {
       event_category: "CTA",
       event_label: "Berlangganan",
@@ -65,8 +71,8 @@ const Card: React.FC<Props> = ({
           );
         })}
         <a
-          // href={`https://wa.me/6285211477581?text=Halo%20saya%20ingin%20berlangganan%20wifi%20Indihome%20${title}%20Harga%20Rp ${price}/Bulan`}
-          // target="_blank"
+          href={`https://wa.me/6285211477581?text=Halo%20saya%20ingin%20berlangganan%20wifi%20Indihome%20${title}%20Harga%20Rp ${price}/Bulan`}
+          target="_blank"
           className="w-full px-4 py-2 text-center rounded-full bg-white text-black border-2 border-[#EA0A2A] hover:bg-[#EA0A2A] hover:text-white"
           onClick={handleButtonClick}
         >
