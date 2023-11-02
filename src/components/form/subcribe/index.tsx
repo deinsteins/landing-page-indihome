@@ -32,7 +32,7 @@ function SubscribeForm({
 
     // Track the conversion event
     gtag("event", "conversion", {
-      send_to: "AW-11363180473/pE2wCI64mOkYELm_saoq", // Replace with your actual Google Ads conversion ID
+      send_to: "", // Replace with your actual Google Ads conversion ID
       value: 1,
     });
     const whatsappMessage = `Saya Ingin Pasang Indihome.

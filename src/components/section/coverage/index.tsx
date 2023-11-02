@@ -10,7 +10,7 @@ const Coverage = () => {
     });
     // Track the conversion event
     gtag("event", "conversion", {
-      send_to: "AW-11363180473/byrkCLug9usYELm_saoq", // Replace with your actual Google Ads conversion ID
+      send_to: "", // Replace with your actual Google Ads conversion ID
       value: 1,
     });
   };

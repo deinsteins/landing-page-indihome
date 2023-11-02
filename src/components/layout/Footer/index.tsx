@@ -9,7 +9,7 @@ const Footer = () => {
       <footer className="w-full flex justify-between items-center">
         <span className="font-semibold">Copyright 2023</span>
         <Image
-          src="/assets/images/telkom-logo.png"
+          src="/logo/indihome-logo.png"
           alt="Telkom"
           width={150}
           height={150}

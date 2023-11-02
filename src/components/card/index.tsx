@@ -33,7 +33,7 @@ const Card: React.FC<Props> = ({
     // Track the button click event
     // Track the conversion event
     gtag("event", "conversion", {
-      send_to: "AW-11363180473/pE2wCI64mOkYELm_saoq", // Replace with your actual Google Ads conversion ID
+      send_to: "", // Replace with your actual Google Ads conversion ID
       value: 1,
     });
 
@@ -76,7 +76,7 @@ const Card: React.FC<Props> = ({
           className="w-full px-4 py-2 text-center rounded-full bg-white text-black border-2 border-[#EA0A2A] hover:bg-[#EA0A2A] hover:text-white"
           onClick={handleButtonClick}
         >
-          Berlangganan
+          Pilih Paket
         </a>
       </div>
     </>

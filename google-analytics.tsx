@@ -1,8 +1,8 @@
 import { useEffect } from "react";
 import { Router } from "next/router"; // Import Router from Next.js
 
-const GA_TRACKING_ID = "G-S03EQK17R8"; // Replace with your actual GA property ID
-const GA_ADS_ID = "AW-11363180473"; // Replace with your actual GA property ID
+const GA_TRACKING_ID = ""; // Replace with your actual GA property ID
+const GA_ADS_ID = ""; // Replace with your actual GA property ID
 
 interface WindowWithGtag extends Window {
   dataLayer?: any[];
