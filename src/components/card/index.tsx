@@ -33,7 +33,7 @@ const Card: React.FC<Props> = ({
     // Track the button click event
     // Track the conversion event
     gtag("event", "conversion", {
-      send_to: "", // Replace with your actual Google Ads conversion ID
+      send_to: "AW-11414793679", // Replace with your actual Google Ads conversion ID
       value: 1,
     });
 

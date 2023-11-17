@@ -5,18 +5,19 @@ import Product from "@/components/section/product";
 import Faq from "@/components/section/faq";
 import Script from "next/script";
 import Qna from "@/components/section/qna";
+import Location from "@/components/section/location";
 
 export default function Home() {
   return (
     <>
       <Head>
         <title>
-          Indihome Bandung Marketing | Pasang Wifi Indihome Bandung, Cimahi,
+          Internet Rumah Bandung | Pasang Internet Wifi Rumah Bandung, Cimahi,
           Cianjur dan Sekitarnya
         </title>
         <meta
           name="description"
-          content="Pasang Wifi Indihome  Bandung, Cimahi, Cianjur dan Sekitarnya. Solusi cepat dan handal untuk koneksi internet terbaik. Hubungi kami segera untuk pemesanan."
+          content="Pasang Internet WIfi di Rumah Bandung, Cimahi, Cianjur dan Sekitarnya. Solusi cepat dan handal untuk koneksi internet terbaik. Hubungi kami segera untuk pemesanan."
           key="desc"
         />
         <meta
@@ -47,7 +48,7 @@ export default function Home() {
           content="Kami menyediakan paket sesuai kebutuhan anda yang bisa dinikmati
           setiap saat."
         />
-        <Qna />
+        <Location />
         <Faq />
       </Wrapper>
     </>

@@ -26,7 +26,7 @@ const Package1: React.FC<Props> = ({ title, content }) => {
             price={"280.000"}
             subtitle={"Paket Internet hanya Wifi"}
             description={
-              "Paket 1P JITU indiHome adalah paket layanan indihome wifi only, tanpa telepon rumah, tanpa UseeTv."
+              "Paket 1P JITU Internet adalah paket layanan Internet wifi only, tanpa telepon rumah, tanpa UseeTv."
             }
             details={[
               "kecepatan internet up to 30mbps",
@@ -45,7 +45,7 @@ const Package1: React.FC<Props> = ({ title, content }) => {
             price={"310.000"}
             subtitle={"Paket Internet hanya Wifi"}
             description={
-              "Paket 1P JITU indiHome adalah paket layanan indihome wifi only, tanpa telepon rumah, tanpa UseeTv."
+              "Paket 1P JITU Internet adalah paket layanan Internet wifi only, tanpa telepon rumah, tanpa UseeTv."
             }
             details={[
               "kecepatan internet up to 40mbps",
@@ -64,7 +64,7 @@ const Package1: React.FC<Props> = ({ title, content }) => {
             price={"350.000"}
             subtitle={"Paket Internet hanya Wifi"}
             description={
-              "Paket 1P JITU indiHome adalah paket layanan indihome wifi only, tanpa telepon rumah, tanpa UseeTv."
+              "Paket 1P JITU Internet adalah paket layanan Internet wifi only, tanpa telepon rumah, tanpa UseeTv."
             }
             details={[
               "kecepatan internet up to 50mbps",

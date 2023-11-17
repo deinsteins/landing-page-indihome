@@ -20,13 +20,13 @@ const Coverage = () => {
       <article className="flex flex-col justify-center items-center gap-12 px-6 py-8 sm:px-24 sm:py-24 text-white">
         <header className="sm:w-3/4">
           <h3 className="text-center text-[#EA0A2A] font-bold text-3xl">
-            Mau Pasang Indihome? Silahkan Cek Ketersediaan Jaringan Indihome di
-            Area Anda Disini
+            Mau Pasang Internet Wifi di Rumah Anda? Silahkan Cek Ketersediaan
+            Jaringan Wifi Kami di Area Anda Disini
           </h3>
         </header>
         <p className="text-black text-center text-lg">
-          Cek jaringan Indihome di lokasi Anda dengan cepat dan mudah dengan
-          menghubungi tim penjualan resmi kami, dan pilihlah paket IndiHome
+          Cek jaringan Wifi kami di lokasi Anda dengan cepat dan mudah dengan
+          menghubungi tim penjualan resmi kami, dan pilihlah paket Internet Wifi
           sesuai kebutuhan Anda.
         </p>
         <a

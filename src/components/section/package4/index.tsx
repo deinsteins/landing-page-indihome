@@ -26,7 +26,7 @@ const Package4: React.FC<Props> = ({ title, content }) => {
             price={"475.000"}
             subtitle={"Internet + TV 82 channels + Telepon "}
             description={
-              "UseeTV (82 SD + 11 HD) sudah termasuk Iflix VIPS, Catchplay+ Hooq, Indihome music nonton tayangan berkualitas dimanapun, dan komunikasi dengan telepon rumah jernih bebas nelpon 100 menit lokal – interlokal"
+              "UseeTV (82 SD + 11 HD) sudah termasuk Iflix VIPS, Catchplay+ Hooq, music nonton tayangan berkualitas dimanapun, dan komunikasi dengan telepon rumah jernih bebas nelpon 100 menit lokal – interlokal"
             }
             details={[]}
           />
@@ -37,7 +37,7 @@ const Package4: React.FC<Props> = ({ title, content }) => {
             price={"495.000"}
             subtitle={"Internet + TV 82 channels + Telepon "}
             description={
-              "UseeTV (82 SD + 11 HD) sudah termasuk Iflix VIPS, Catchplay+ Hooq, Indihome music nonton tayangan berkualitas dimanapun, dan komunikasi dengan telepon rumah jernih bebas nelpon 100 menit lokal – interlokal"
+              "UseeTV (82 SD + 11 HD) sudah termasuk Iflix VIPS, Catchplay+ Hooq, music nonton tayangan berkualitas dimanapun, dan komunikasi dengan telepon rumah jernih bebas nelpon 100 menit lokal – interlokal"
             }
             details={[]}
           />
@@ -48,7 +48,7 @@ const Package4: React.FC<Props> = ({ title, content }) => {
             price={"515.000"}
             subtitle={"Internet + TV 82 channels + Telepon "}
             description={
-              "UseeTV (82 SD + 11 HD) sudah termasuk Iflix VIPS, Catchplay+ Hooq, Indihome music nonton tayangan berkualitas dimanapun, dan komunikasi dengan telepon rumah jernih bebas nelpon 100 menit lokal – interlokal"
+              "UseeTV (82 SD + 11 HD) sudah termasuk Iflix VIPS, Catchplay+ Hooq, music nonton tayangan berkualitas dimanapun, dan komunikasi dengan telepon rumah jernih bebas nelpon 100 menit lokal – interlokal"
             }
             details={[]}
           />

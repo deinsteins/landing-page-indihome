@@ -127,7 +127,7 @@ Paket Indihome yang dipilih: ${selectedPackage}
       </div>
 
       <div className="flex flex-col gap-1 mb-4">
-        <label>Paket Indihome yang dipilih</label>
+        <label>Paket Internet yang dipilih</label>
         <Controller
           name="package"
           control={control}

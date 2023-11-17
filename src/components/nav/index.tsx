@@ -80,12 +80,7 @@ const Nav = () => {
       className={`sticky top-0 z-10 flex justify-between gap-4 p-4 md:p-8 font-medium text-lg ${navbarClass}`}
     >
       <Link href="/">
-        <Image
-          src="/logo/indihome-logo.png"
-          alt="Indihome"
-          width={125}
-          height={40}
-        />
+        <Image src="/logo/brand.png" alt="Logo" width={80} height={40} />
       </Link>
 
       <div className="md:flex gap-12 items-center text-[#787878]">
@@ -98,13 +93,13 @@ const Nav = () => {
           </Link>
           <Link
             className="py-2 px-4 hover:px-6 rounded-full hover:text-white hover:bg-[#EA0A2A]"
-            href="/paket-indihome-murah"
+            href="/paket-wifi-murah"
           >
             Daftar Paket
           </Link>
           <Link
             className="py-2 px-4 hover:px-6 rounded-full hover:text-white hover:bg-[#EA0A2A]"
-            href="/ketersediaan-indihome"
+            href="/ketersediaan"
           >
             Cek Coverage
           </Link>
@@ -137,13 +132,13 @@ const Nav = () => {
           </Link>
           <Link
             className="py-2 px-4 hover:px-6 rounded-full hover:text-[#EA0A2A]"
-            href="/paket-indihome-murah"
+            href="/paket-wifi-murah"
           >
             Daftar Paket
           </Link>
           <Link
             className="py-2 px-4 hover:px-6 rounded-full hover:text-[#EA0A2A]"
-            href="/ketersediaan-indihome"
+            href="/ketersediaan"
           >
             Cek Coverage
           </Link>

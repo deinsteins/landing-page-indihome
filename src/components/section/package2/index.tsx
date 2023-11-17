@@ -26,7 +26,7 @@ const Package2: React.FC<Props> = ({ title, content }) => {
             price={"300.000"}
             subtitle={"Paket Internet + Telepon "}
             description={
-              "Paket IndiHome Super cepat berteknologi fiber optik dan komunikasi dengan telepon rumah jernih bebas nelpon 100 menit lokal – interlokal"
+              "Paket Wifi Super cepat berteknologi fiber optik dan komunikasi dengan telepon rumah jernih bebas nelpon 100 menit lokal – interlokal"
             }
             details={[]}
           />
@@ -37,7 +37,7 @@ const Package2: React.FC<Props> = ({ title, content }) => {
             price={"330.000"}
             subtitle={"Paket Internet + Telepon "}
             description={
-              "Paket IndiHome Super cepat berteknologi fiber optik dan komunikasi dengan telepon rumah jernih bebas nelpon 100 menit lokal – interlokal"
+              "Paket Wifi Super cepat berteknologi fiber optik dan komunikasi dengan telepon rumah jernih bebas nelpon 100 menit lokal – interlokal"
             }
             details={[]}
           />
@@ -48,7 +48,7 @@ const Package2: React.FC<Props> = ({ title, content }) => {
             price={"360.000"}
             subtitle={"Paket Internet + Telepon "}
             description={
-              "Paket IndiHome Super cepat berteknologi fiber optik dan komunikasi dengan telepon rumah jernih bebas nelpon 100 menit lokal – interlokal"
+              "Paket Wifi Super cepat berteknologi fiber optik dan komunikasi dengan telepon rumah jernih bebas nelpon 100 menit lokal – interlokal"
             }
             details={[]}
           />

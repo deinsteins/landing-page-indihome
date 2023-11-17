@@ -32,9 +32,9 @@ const Hero = () => {
       />
       <header className="mx-8">
         <h2 className="text-center" style={{ fontSize: 28 }}>
-          Dapatkan layanan profesional pasang wifi Indihome di Bandung, Cianjur
-          dan Sekitarnya. Ciptakan koneksi cepat dengan jaringan yang optimal
-          untuk hiburan anda serta keluarga di rumah.
+          Dapatkan layanan profesional pasang internet wifi rumah di Bandung,
+          Cianjur dan Sekitarnya. Ciptakan koneksi cepat dengan jaringan yang
+          optimal untuk hiburan anda serta keluarga di rumah.
         </h2>
       </header>
       <a

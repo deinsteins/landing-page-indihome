@@ -26,7 +26,7 @@ const Package3: React.FC<Props> = ({ title, content }) => {
             price={"340.000"}
             subtitle={"Internet + TV 82 channels"}
             description={
-              "UseeTV (82 SD + 11 HD) sudah termasuk Iflix VIPS, Catchplay+ Hooq, Indihome music nonton tayangan berkualitas dimanapun, kapanpun dalam genggaman"
+              "UseeTV (82 SD + 11 HD) sudah termasuk Iflix VIPS, Catchplay+ Hooq, music nonton tayangan berkualitas dimanapun, kapanpun dalam genggaman"
             }
             details={[]}
           />
@@ -37,7 +37,7 @@ const Package3: React.FC<Props> = ({ title, content }) => {
             price={"485.000"}
             subtitle={"Internet + TV 82 channels"}
             description={
-              "UseeTV (82 SD + 11 HD) sudah termasuk Iflix VIPS, Catchplay+ Hooq, Indihome music nonton tayangan berkualitas dimanapun, kapanpun dalam genggaman"
+              "UseeTV (82 SD + 11 HD) sudah termasuk Iflix VIPS, Catchplay+ Hooq, music nonton tayangan berkualitas dimanapun, kapanpun dalam genggaman"
             }
             details={[]}
           />
@@ -48,7 +48,7 @@ const Package3: React.FC<Props> = ({ title, content }) => {
             price={"505.000"}
             subtitle={"Internet + TV 82 channels"}
             description={
-              "UseeTV (82 SD + 11 HD) sudah termasuk Iflix VIPS, Catchplay+ Hooq, Indihome music nonton tayangan berkualitas dimanapun, kapanpun dalam genggaman"
+              "UseeTV (82 SD + 11 HD) sudah termasuk Iflix VIPS, Catchplay+ Hooq, music nonton tayangan berkualitas dimanapun, kapanpun dalam genggaman"
             }
             details={[]}
           />

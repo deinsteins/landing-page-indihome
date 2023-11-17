@@ -11,39 +11,39 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Paket Indihome 2023 | Indihome Bandung</title>
+        <title>Paket Internet Wifi 2023 | Wifi Internet Rumah Bandung</title>
         <meta
           name="description"
-          content="Temukan paket internet Indihome murah terbaru di tahun 2023. Nikmati kecepatan tinggi tanpa menguras dompet Anda. Klik untuk penawaran terbaik!"
+          content="Temukan paket internet Internet murah terbaru di tahun 2023. Nikmati kecepatan tinggi tanpa menguras dompet Anda. Klik untuk penawaran terbaik!"
           key="desc"
         />
       </Head>
       <Wrapper footer>
         <div className="flex flex-col gap-4 mx-8 mt-12 rounded-2xl p-4 text-center">
           <h2 className="font-bold text-4xl">
-            Pilihan Paket Indihome Internet Unlimited
+            Pilihan Paket Internet Wifi Rumah Unlimited
           </h2>
           <p className="text-xl">
-            Indihome memahami bahwa kebutuhan setiap keluarga berbeda. Oleh
+            Internet memahami bahwa kebutuhan setiap keluarga berbeda. Oleh
             karena itu, kami menyediakan beragam paket yang dapat Anda sesuaikan
             dengan kebutuhan Anda. Berikut adalah beberapa pilihan paket yang
             kami tawarkan:
           </p>
         </div>
         <Package1
-          title="Paket Indihome Jitu"
-          content="Paket Layanan Internet"
+          title="Paket Internet Wifi Jitu"
+          content="Paket Layanan Internet Wifi"
         />
         <Package2
-          title="Paket Indihome Jitu - 2P"
+          title="Paket Internet Wifi Jitu - 2P"
           content="Paket Layanan Internet + Telpon"
         />
         <Package3
-          title="Paket Indihome Jitu - 2P"
+          title="Paket Internet Wifi Jitu - 2P"
           content="Paket Layanan Internet + SetBox Android TV"
         />
         <Package4
-          title="Paket Indihome Jitu - 3P"
+          title="Paket Internet Wifi Jitu - 3P"
           content="Paket Layanan Internet + Telpon + SetBox Android"
         />
         <Coverage />
