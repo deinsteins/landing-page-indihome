@@ -40,7 +40,7 @@ export default function Home() {
             `}
         </Script>
 
-        <Script id="google-ads">{`gtag('config', '');`}</Script>
+        <Script id="google-ads">{`gtag('config', 'AW-11415000324');`}</Script>
 
         <Hero />
         <Product
@@ -48,7 +48,6 @@ export default function Home() {
           content="Kami menyediakan paket sesuai kebutuhan anda yang bisa dinikmati
           setiap saat."
         />
-        <Location />
         <Faq />
       </Wrapper>
     </>
