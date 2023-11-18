@@ -1,8 +1,5 @@
 import Image, { StaticImageData } from "next/image";
 import { ReactNode, useState } from "react";
-import Modal from "../modal";
-import SubcribeForm from "../form/subcribe";
-
 interface Props {
   src: StaticImageData | string;
   alt: string;
@@ -22,37 +19,8 @@ const Card: React.FC<Props> = ({
   description,
   details,
 }) => {
-  const [modalOpen, setModalOpen] = useState(false);
-
-  const handleCloseModal = () => {
-    setModalOpen(false);
-  };
-
-  const handleButtonClick = () => {
-    // setModalOpen(true);
-    // Track the button click event
-    // Track the conversion event
-    gtag("event", "conversion", {
-      send_to: "AW-11414793679", // Replace with your actual Google Ads conversion ID
-      value: 1,
-    });
-
-    gtag("event", "button_click", {
-      event_category: "CTA",
-      event_label: "Berlangganan",
-    });
-  };
   return (
     <>
-      <Modal isOpen={modalOpen} onClose={handleCloseModal}>
-        <h3 className="text-black font-bold text-xl text-center">
-          Silahkan Isi Formulir Berikut
-        </h3>
-        <SubcribeForm
-          onCloseModal={handleCloseModal}
-          selectedPackage={`${title} Rp ${price} /Perbulan`}
-        />
-      </Modal>
       <div className="flex flex-col text-black gap-4 px-6 py-3 rounded-2xl bg-white max-w-[350px] justify-center text-center items-center">
         <Image src={src} alt={alt} width={200} height={200} />
         <h3 className="font-bold text-2xl">{title}</h3>
@@ -74,7 +42,6 @@ const Card: React.FC<Props> = ({
           href={`https://wa.me/6285211477581?text=Halo%20saya%20ingin%20berlangganan%20wifi%20Indihome%20${title}%20Harga%20Rp ${price}/Bulan`}
           target="_blank"
           className="w-full px-4 py-2 text-center rounded-full bg-white text-black border-2 border-[#EA0A2A] hover:bg-[#EA0A2A] hover:text-white"
-          onClick={handleButtonClick}
         >
           Pilih Paket
         </a>

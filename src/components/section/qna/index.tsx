@@ -1,5 +1,4 @@
 import ArticleLayout from "@/components/article";
-import Card from "@/components/card";
 
 const Qna = () => {
   return (
